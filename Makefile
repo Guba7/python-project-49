@@ -30,5 +30,8 @@ brain-games:
 brain-even:
 	poetry run brain-even
 
+brain-calc:
+	poetry run brain-calc
+
 .PHONY: install test lint selfcheck check build
 

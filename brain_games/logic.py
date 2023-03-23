@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import prompt
-from brain_games.even import game_question
+from brain_games.games.even import game_question
 
 def logic():
     print("Welcome to the Brain Games!")
