@@ -24,9 +24,3 @@ def logic(games):
     print(f'Congratulations, {name}!')
 
 
-def main():
-    logic(games)
-
-
-if __name__ == '__main__':
-    main()
