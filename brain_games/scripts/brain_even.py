@@ -1,9 +1,10 @@
-#!/usr/bin/env python3n
-from brain_games.logic import logic
+#!/usr/bin/env python3
+from brain_games import logic
+from brain_games.games import even
 
 
 def main():
-    logic()
+    logic(even)
 
 
 if __name__ == '__main__':

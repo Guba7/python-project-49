@@ -2,7 +2,7 @@
 from random import randint
 
 
-def brain_calc():
+def generate_question_answer():
     num1 = randint(0, 10)
     num2 = randint(0, 10)
     oper = randint(1, 3)
@@ -22,7 +22,7 @@ def brain_calc():
 
 
 def main():
-    brain_calc()
+    generate_question_answer()
 
 
 if __name__ == '__main__':

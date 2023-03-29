@@ -2,7 +2,7 @@
 import random
 
 
-def game_question():
+def generate_question_answer():
     rnd_numb = random.randint(1, 100)
     question_1 = ("Answer \"yes\" if the number is even, otherwise answer \"no\"")
     question_2 = (f'Question: {rnd_numb}')
@@ -14,7 +14,7 @@ def game_question():
 
 
 def main():
-    game_question()
+    generate_question_answer()
 
 
 if __name__ == '__main__':
