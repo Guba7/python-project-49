@@ -2,7 +2,6 @@
 import prompt
 
 
-
 def logic(games):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
@@ -20,7 +19,5 @@ def logic(games):
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            return 
+            return
     print(f'Congratulations, {name}!')
-
-

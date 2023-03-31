@@ -1,6 +1,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Guba7/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Guba7/python-project-49/actions)
 
+[![asciicast](https://asciinema.org/a/572570.svg)](https://asciinema.org/a/572570)
+
 [![asciicast](https://asciinema.org/a/7lg05GoXJrjiCUeT51HXrGJbe.svg)](https://asciinema.org/a/7lg05GoXJrjiCUeT51HXrGJbe)
 
 [![asciicast](https://asciinema.org/a/572083.svg)](https://asciinema.org/a/572083)

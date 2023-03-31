@@ -27,7 +27,7 @@ def generate_question_answer():
 
 
 def main():
-    brain_progression()
+    generate_question_answer()
 
 
 if __name__ == '__main__':
