@@ -3,19 +3,13 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/0b1ed04f92c039ed1d46/maintainability)](https://codeclimate.com/github/Guba7/python-project-49/maintainability)
 
-# Описание проекта brain-games.
-# Игра реализована  на  python. В игру входят 5 видов уровней. 
+This is an educational project repository. Brain Games contains five separate games launched by commands
 
-# Требования к установке
-# Видеокарта — объём памяти от 256 Мб, совместимость с DirectX 9.0b и новейшие драйверы.
-# Операционная система — Windows XP /Vista /7 /8.
-# Процессор CPU — 2.2GHz или выше.
-# Оперативная память RAM ОЗУ — 1.5 Гб для Windows XP, 2 Гб для Windows Vista/7/8 .
-# Скорость Интернет-соединения — 256 килобит в секунду.
-# 7 Гб свободного места на жёстком диске (HDD).
-# Звуковая карта — 16-разрядная, совместимая с DirectX 9.0b
-# DirectX 9.0b.
-
+1. brain-even - you should check the number is even or not.
+2. brain-calc - you should write the result of the expression.
+3. brain-gcd - you should find the greatest common divisor of given numbers.
+4. brain-progression - you should find number is missing in the progression.
+5. brain-prime - you should check the number is prime or not.
 
 [![asciicast](https://asciinema.org/a/572570.svg)](https://asciinema.org/a/572570)
 
