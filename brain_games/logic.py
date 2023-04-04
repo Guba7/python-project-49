@@ -1,15 +1,17 @@
-#!/usr/bin/env python3
 import prompt
 
 
-def logic(games):
+ROUNDS_QUANTITY = 3
+
+
+def logic_run(games):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
+    print(games.RULES_OF_GAME)
     i = 1
-    while i <= 3:
-        question1, question2, correct_answer = games.generate_question_answer()
-        print(question1)
+    while i <= ROUNDS_QUANTITY:
+        question2, correct_answer = games.generate_question_answer()
         print(question2)
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:

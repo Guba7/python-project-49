@@ -2,6 +2,9 @@
 from random import randint
 
 
+RULES_OF_GAME = 'What is the result of the expression?'
+
+
 def generate_question_answer():
     num1 = randint(0, 10)
     num2 = randint(0, 10)
@@ -15,15 +18,6 @@ def generate_question_answer():
     else:
         symbol = '*'
         correct_answer = num1 * num2
-    question1 = ('What is the result of the expression?')
     question2 = (f'Question: {num1} {symbol} {num2}')
     correct_answer = str(correct_answer)
-    return question1, question2, correct_answer
-
-
-def main():
-    generate_question_answer()
-
-
-if __name__ == '__main__':
-    main()
+    return question2, correct_answer

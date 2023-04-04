@@ -2,6 +2,9 @@
 from random import randint
 
 
+RULES_OF_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
 def generate_question_answer():
     num = randint(1, 100)
     if num == 1:
@@ -12,15 +15,5 @@ def generate_question_answer():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    question1 = ('Answer "yes" if given number is prime. '
-                 'Otherwise answer "no".')
     question2 = (f'Question: {num}')
-    return question1, question2, correct_answer
-
-
-def main():
-    generate_question_answer()
-
-
-if __name__ == '__main__':
-    main()
+    return question2, correct_answer
