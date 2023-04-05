@@ -14,7 +14,8 @@ def logic_run(games):
         question2, correct_answer = games.generate_question_answer()
         print(question2)
         answer = prompt.string('Your answer: ')
-        if answer == correct_answer:
+        if correct_answer == answer:
+            print(f'{correct_answer}, {answer}')
             print('Correct')
             i += 1
         else:
