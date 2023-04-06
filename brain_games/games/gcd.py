@@ -15,6 +15,5 @@ def generate_question_answer():
 
     while num2 != 0:
         num1, num2 = num2, num1 % num2
-    correct_answer = num1
-    print(f'{correct_answer} = {num1}')
+    correct_answer = str(num1)
     return question2, correct_answer

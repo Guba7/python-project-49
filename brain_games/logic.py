@@ -15,7 +15,6 @@ def logic_run(games):
         print(question2)
         answer = prompt.string('Your answer: ')
         if correct_answer == answer:
-            print(f'{correct_answer}, {answer}')
             print('Correct')
             i += 1
         else:
