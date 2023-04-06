@@ -11,6 +11,9 @@ This is an educational project repository. Brain Games contains five separate ga
 4. brain-progression - you should find number is missing in the progression.
 5. brain-prime - you should check the number is prime or not.
 
+Трбеования ОС: python 3.7
+Установка игры выполняется командой python3 -m pip install --user dist/hello-0.1.0-py3-none-any.whl
+
 [![asciicast](https://asciinema.org/a/572570.svg)](https://asciinema.org/a/572570)
 
 [![asciicast](https://asciinema.org/a/7lg05GoXJrjiCUeT51HXrGJbe.svg)](https://asciinema.org/a/7lg05GoXJrjiCUeT51HXrGJbe)
